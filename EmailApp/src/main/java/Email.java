@@ -12,22 +12,7 @@ public class Email {
     private String altEmail;
 
 
-    //Constructor to receive first/last name
-
-//    public Email(String firstName,String lastName){
-//        this.firstName = firstName;
-//        this.lastName = lastName;
-//
-//        //returns the department
-//        this.department = setDepartment();
-//
-//        //returns random password
-//        this.password = randomPassword(passwordLength);
-//        System.out.println("Your password is: " + this.password);
-//
-//        //combine elements to generate email
-//        email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + "outlook.com";
-//    }
+    
 
     public String showInfo(){
         return "DISPLAY NAME: " + firstName + " " + lastName +
